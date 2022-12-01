@@ -35,8 +35,8 @@ private:
     QVector<Pair> EqualPairs;
     QVector<Pair> InequalPairs;
     QVector<Pair> UncertainPairs;
-    int num;
-    int test;
+    int num; //等价对总数
+    int test; //人工确认程序对数
 };
 
 #endif // CONFIRM_H

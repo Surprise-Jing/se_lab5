@@ -17,7 +17,7 @@ class Interface : public QWidget
 public:
     explicit Interface(QWidget *parent = nullptr);
     ~Interface();
-    void Run(int state);
+    void Run(int state); //运行更新界面
 
 
 private slots:
