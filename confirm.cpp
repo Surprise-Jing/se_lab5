@@ -120,7 +120,8 @@ Pair Confirm::getPair(int index)
 
 void Confirm::ChangeState(int index, Pair p, int state)
 {
-    EqualPairs.removeAt(index);
+    if(index < EqualPairs.count())
+        EqualPairs.removeAt(index);
     if(state == 1)
     {
         InequalPairs.append(p);
